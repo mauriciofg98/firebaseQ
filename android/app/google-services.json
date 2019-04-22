@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "473340273263",
+    "firebase_url": "https://q-up-b3bc0.firebaseio.com",
+    "project_id": "q-up-b3bc0",
+    "storage_bucket": "q-up-b3bc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473340273263:android:dd13739d82de4593",
+        "android_client_info": {
+          "package_name": "com.example.fbq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473340273263-u6v4oaf4q84fsk8tpul3nlmjno5272e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLkkC5ZLKex-Qr5-IBG6FN4pw7rqfHfTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473340273263-u6v4oaf4q84fsk8tpul3nlmjno5272e6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
