@@ -5,6 +5,8 @@ import 'testinghome.dart';
 
 
 class Home extends StatefulWidget {
+  const Home({Key key, this.user}) : super(key:key);
+  final FirebaseUser user;
   @override
   _HomeState createState() => _HomeState();
 }
@@ -12,10 +14,11 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Home'),
-      ),
+    return MaterialApp(
+        home: Scaffold(
+          appBar: AppBar(title: Text("Queue up")),
+          body: Text('Welcome back, ${widget.user.email}'),
+        )
     );
   }
-}
+  }

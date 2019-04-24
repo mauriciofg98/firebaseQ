@@ -171,7 +171,7 @@ class _signInState extends State<signIn> {
         {
           FirebaseUser user = await FirebaseAuth.instance.signInWithEmailAndPassword(email: _email, password: _password);
           //TODO: Navigate home
-          Navigator.push(context, MaterialPageRoute(builder: (context) => Home()));
+          Navigator.push(context, MaterialPageRoute(builder: (context) => Home(user:user)));
           print('Signed in: ${user.uid}');
         }
         catch(e)
